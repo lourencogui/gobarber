@@ -1,0 +1,19 @@
+yarn init -y
+
+yarn add express
+
+// para utilizar import/export ao inves de require
+yarn add sucrase nodemon -D
+
+yarn add eslint -D
+
+yarn add prettier eslint-config-prettier  eslint-plugin-prettier -D
+yarn eslint --fix src --ext .js
+
+yarn add sequelize
+yarn add sequelize-cli -D
+
+yarn add pg pg-hstore
+
+yarn add bcrypt
+
